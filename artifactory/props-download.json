@@ -1,0 +1,8 @@
+{
+  "files": [
+    {
+      "pattern": "example-repo-local/com/sample/*.jar",
+      "target": "builds/"
+    }
+ ]
+}

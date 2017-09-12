@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "pattern": "build/libs/helloworld-*.jar",
+      "target": "example-repo-local/com/sample/",
+      "props": "type=jar;status=ready"
+    }
+ ]
+}
