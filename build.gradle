@@ -9,7 +9,11 @@ buildscript {
     }
 }
 
+//Plugin nebula-release
 apply plugin: 'nebula.nebula-release'
 
+//Plugin java
 apply plugin: 'java'
+
+//Plugin war
 apply plugin: 'war'
