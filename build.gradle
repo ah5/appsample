@@ -15,5 +15,16 @@ apply plugin: 'nebula.nebula-release'
 //Plugin java
 apply plugin: 'java'
 
-//Plugin war
-apply plugin: 'war'
+version = '1.0.0'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+	manifest {
+		attributes 'Implementation-Title': 'Hello World'
+		attributes 'Implementation-Version': version
+		attributes 'Main-Class': 'com.sample.HelloWorld'
+	}
+	baseName = project.name
+	from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}
