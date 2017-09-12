@@ -1,8 +1,9 @@
 {
   "files": [
     {
-      "pattern": "build/libs/*/*-*.jar",
-      "target": "example-repo-local/{1}/{3}/{2}-{3}.jar",
+      "pattern": "build/libs/com/sample/*-*.jar",
+      "target": "example-repo-local/{1}/{2}.jar",
+      "recursive": true,
       "props": "type=jar;status=ready"
     }
  ]
