@@ -2,8 +2,7 @@
   "files": [
     {
       "pattern": "build/libs/com/sample/*-*.jar",
-      "target": "example-repo-local/{1}/{2}.jar",
-      "recursive": true,
+      "target": "example-repo-local/{2}/{1}.jar",
       "props": "type=jar;status=ready"
     }
  ]
