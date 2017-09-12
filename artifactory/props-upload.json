@@ -2,7 +2,7 @@
   "files": [
     {
       "pattern": "build/libs/com/sample/(*)-(*)-SNAPSHOT.jar",
-      "target": "example-repo-local/com/sample/{2}/{1}.jar",
+      "target": "example-repo-local/com/sample/{1}/{2}/{1}-{2}.jar",
       "props": "type=jar;status=ready"
     }
  ]
