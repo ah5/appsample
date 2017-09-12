@@ -1,8 +1,8 @@
 {
   "files": [
     {
-      "pattern": "build/libs/com/sample/*-*.jar",
-      "target": "example-repo-local/{2}/{1}.jar",
+      "pattern": "build/libs/com/sample/(*)-(*).jar",
+      "target": "example-repo-local/com/sample/{2}/{1}.jar",
       "props": "type=jar;status=ready"
     }
  ]
