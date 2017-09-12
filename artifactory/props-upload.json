@@ -1,8 +1,8 @@
 {
   "files": [
     {
-      "pattern": "build/libs/helloworld-*.jar",
-      "target": "example-repo-local/com/sample/",
+      "pattern": "build/libs/*/*-*.jar",
+      "target": "example-repo-local/{1}/{3}/{2}-{3}.jar",
       "props": "type=jar;status=ready"
     }
  ]
